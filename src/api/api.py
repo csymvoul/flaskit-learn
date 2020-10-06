@@ -1,5 +1,5 @@
 from flask import Flask
-from flaskit import flaskit-learn
+from flaskit import flaskit_learn
 
-# text = flaskit-learn.hello()
-# print(text)
+text = flaskit_learn.hello()
+print(text)
