@@ -1,5 +1,6 @@
 from flask import Flask
-from flaskit import flaskit_learn
+from flaskit.flaskit_learn import clustering
 
-text = flaskit_learn.hello()
-print(text)
+dbscan = clustering()
+res = dbscan.fit()
+print(res)
