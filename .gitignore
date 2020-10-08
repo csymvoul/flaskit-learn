@@ -9,3 +9,5 @@ lib64/
 lib64/python3.7/site-packages/
 site-packages/
 pyvenv.cfg
+*.pyc
+*.pyo
